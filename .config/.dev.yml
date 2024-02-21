@@ -1,0 +1,18 @@
+#项目配置
+APP:
+  prefix: /api
+  host: localhost
+  port: 3000
+
+#数据库
+MYSQL:
+  type: mysql
+  host: localhost
+  port: 3306
+  username: "guyunfei"
+  password: "z8h0a2n3love"
+  database: "nest-blog"
+  logging: true
+  synchronize: true
+  autoloadEntities: true
+
